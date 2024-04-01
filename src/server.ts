@@ -8,9 +8,16 @@ app.get("/ola", async () => {
     Id: crypto.randomUUID(),
     title: "Transação da tarde",
     amount: 520,
-  });
+  })
+  .returning('*')
   return transactions;
 });
+app.get("/all", async () => {
+  const transactions = await knex('transactions').select('*')
+  
+  return transactions;
+});
+
 
 app
   .listen({
