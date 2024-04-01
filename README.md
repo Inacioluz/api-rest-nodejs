@@ -15,6 +15,7 @@ Nesse projeto, vou testar conhecimetos aprendendo e imprementando
 - sqlite3
 - TypeScript
 - eslint
+- zod
 
 
 
