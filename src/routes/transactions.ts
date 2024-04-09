@@ -9,7 +9,7 @@ export async function transactionsRoutes(app: FastifyInstance) {
     const createTransactioBodySchema = z.object({
       title: z.string(),
       amount: z.number(),
-      type: z.enum(['credits', 'debit']),
+      type: z.enum(['credit', 'debit']),
     })
 
     const { title, amount, type } = createTransactioBodySchema.parse(
