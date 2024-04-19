@@ -31,9 +31,6 @@ Nesse projeto, vou testar conhecimetos aprendendo e imprementando
 - [ ] Deve ser possível identificarmos o usuário entre as requisições;
 - [ ] O usuário só pode visualizar transações o qual ele criou;
 
-<!--START_SECTION:footer-->
-
-
 
 ## Etiquetas
 
